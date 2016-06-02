@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+#principal {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height: 100vh;	
+}
+#pantalla{
+  float: left;
+  width: 100%;
+  height :25%;
+  background-color: #99F
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: "Times New Roman" ,Times , serif;
+  color: #FCF;
+}
+#teclado{
+  float: left;
+  width: 100%;
+  height: 75%;	
+}
+.nota{
+	position::relative;
+	float:left;
+	height:100%;
+	outline:#99F solid 3px;
+	background: #f5fdf9;
+    width:7.142856%;
+}
+.nota1 {
+	top:25%;
+	position:absolute;
+	float: right;
+	height: 40%;
+	width: 3.571418%;
+}
+.tocada{
+	background: #f9f;
+	color: #FFF;
+	outline: #c9f solid 1px;
+}
+.tocada1{
+	background: #F9F;
+	color: #FFF;
+	outline: #699 solid 3px;
+}
+
+.textonota{
+	position: relative;
+	top: 80%;
+	text-align: center;
+	font-size: 70%;
+	font-weight: bold;
+}
+#do1 {
+	background-color: #9FF;
+	margin-left:5.1%;
+}
+#re1 {
+	background-color: #9FF;
+	margin-left:12.3%;
+}
+#fa1 {
+	background-color: #9FF;
+	margin-left:26.5%;
+}
+#sol1 {
+	background-color:#9FF;
+	margin-left:33.7%;
+}
+#la1 {
+	background-color: #9FF;
+	margin-left:40.8%;
+}
+#do2 {
+	background-color: #9FF;
+	margin-left:55%;
+}
+#re2 {
+	background-color: #9FF;
+	margin-left:62.3%;
+}
+#fa2 {
+	background-color: #9FF;
+	margin-left:76.5%;
+}
+#sol2 {
+	background-color: #9FF;
+	margin-left:83.5%;
+}
+#la2 {
+	background-color: #9FF;
+	margin-left:90.8%;
+}
+	
+
+
+
+
